@@ -29,7 +29,7 @@ public class YClientsBotApplication implements CommandLineRunner {
         // Данные о записи клиента
         String procedureName = "Маникюр";
         String appointmentDate = "2024-08-20 14:00";
-        String clientPhoneNumber = "whatsapp:+420721523596";
+        String clientPhoneNumber = "whatsapp:+79104254267";
 
         // Формирование сообщения
         String messageBody = String.format(
@@ -50,4 +50,7 @@ public class YClientsBotApplication implements CommandLineRunner {
         // Печать SID отправленного сообщения
         System.out.println("Message SID: " + message.getSid());
     }
+
 }
+
+//TODO: todo
