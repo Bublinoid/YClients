@@ -10,7 +10,7 @@
     </parent>
     <groupId>ru.bublinoid</groupId>
     <artifactId>YClientsBot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>YClientsBot</name>
     <description>YClientsBot</description>
     <url/>
@@ -50,6 +50,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.twilio.sdk/twilio -->
+        <dependency>
+            <groupId>com.twilio.sdk</groupId>
+            <artifactId>twilio</artifactId>
+            <version>10.4.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -68,5 +75,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
