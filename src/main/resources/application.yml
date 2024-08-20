@@ -1,2 +1,6 @@
+twilio:
+  account-sid: ACa8c327d70806cda534c2ec4b1782d657
+  auth-token: 6a3c5026c13bf22963cfd159bbb2c7ee
+
 server:
   port: 8080
